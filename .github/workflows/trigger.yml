@@ -22,8 +22,7 @@ jobs:
     - name: 'Call Curl to trigger another workflow'
       run: |
         hpcc_version=9.10.0
-        hpcc_src_branch=community_9.10.0-1
-        data="{\"ref\":\"main\", \"inputs\": { \"hpcc_version\":\"$hpcc_version\",\"hpcc_src_branch\":\"$hpcc_src_branch\" }}"
+        data="{\"ref\":\"main\", \"inputs\": { \"hpcc_version\":\"$hpcc_version\" }}"
 
         curl -L \
           -X POST \
