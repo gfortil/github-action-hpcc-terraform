@@ -15,7 +15,7 @@ jobs:
       GITHUB_ORG: lexisnexis-iac
       GITHUB_REPO: hpccplat-azure-automation-dev
       GITHUB_REPO_BRANCH: main
-      WF_YAML_FILE: remote-trigger-apply.yaml
+      WF_YAML_FILE: repo-dispatch-apply.yaml
 
     runs-on: Ubuntu-22.04
     steps:
